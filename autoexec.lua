@@ -3,15 +3,9 @@ fileLoad("det.lua")
 conExec("bind F3 \"dofile(\'spawn.lua\')\"")
 conExec("bind F5 \"dofile(\'mana-regen.lua\')\"")
 
-
-
-
 -- ================================================================================= --
 function onFirstFrame()
-	-- print('loaded Autoexec.lua')
-	local text = ' loaded Autoexec.lua '
-  local time = 10  -- time in seconds, or whatever unit is expected
-  createBubble(me, text, me, time)
+	print('loaded Autoexec.lua')
 end
 
 creatureSummonWhatDo=2
@@ -74,14 +68,14 @@ end
 function getInv(w)
  --[[
 
-   достает объекты инвентаря
-   пример использования - перебор всех элементов инвентаря:
+   ������� ������� ���������
+   ������ ������������� - ������� ���� ��������� ���������:
 
     setMe()
     for o in getInv(me) do
        print(getThingName(o))
     end
-   другой пример использования - получение первого предмета
+   ������ ������ ������������� - ��������� ������� ��������
    _,obj = getInv(me)
 
 
@@ -207,7 +201,7 @@ end
 
 function setSentrySpeed(obj,angl)
 	if obj==nil or getThingName(getThingType(obj))~="SentryGlobe" then return end
-	local uc=getPtrPtr(obj,0x2ec) -- юнитконтроллер
+	local uc=getPtrPtr(obj,0x2ec) -- ��������������
 	if angl==nil then angl=180 end
 	angl=angl*(3.14/180)
 	setPtrFloat(uc,8,angl)

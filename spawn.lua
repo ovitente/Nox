@@ -1,6 +1,9 @@
-local text = ' Spawned Item '
-local time = 10  -- time in seconds, or whatever unit is expected
-createBubble(me, text, me, time)
+
+-- local text = ' Spawned Item '
+-- local time = 10  -- time in seconds, or whatever unit is expected
+
+-- createBubble(me, text, me, time)
+print('wth2')
 
 setMe()
 x,y=playerMouse(me)
