@@ -1,13 +1,9 @@
 print('Mana Regen')
--- local text = ' Mana Regen Activated '
--- local time = 10  -- time in seconds, or whatever unit is expected
--- createBubble(me, text, me, time)
 
--- Assuming these functions are defined elsewhere in your environment
--- getPtrPtr, getPtrShort, setPtrShort, setTimeout
+-- Initialize global variable maxmana
+maxmana = unitMaxMana(me)
 
 local player = me
-
 local startTime = os.time()
 
 function regenMana()
@@ -16,8 +12,8 @@ function regenMana()
   end
 
   local currentMana = unitMana(player)
-  if currentMana < 85 then
-    unitMana(player, math.min(85, currentMana + 4))
+  if currentMana < maxmana then
+    unitMana(player, math.min(maxmana, currentMana + 4))
   end
   setTimeout(regenMana, 30)
 end
