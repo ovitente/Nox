@@ -5,12 +5,12 @@ setMe() -- MUST BE TO USE me
 
 
 player = me
-startTime = os.time()
+-- startTime = os.time()
 
 function regenMana()
-  if os.difftime(os.time(), startTime) >= 30 then
-    return
-  end
+  -- if os.difftime(os.time(), startTime) >= 30 then
+  --   return
+  -- end
 
   local currentMana = unitMana(player)
   maxmana = unitMaxMana(me)
