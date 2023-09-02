@@ -13,7 +13,7 @@ function regenMana()
 
   local currentMana = unitMana(player)
   if currentMana < maxmana then
-    unitMana(player, math.min(maxmana, currentMana + 4))
+    unitMana(player, math.min(maxmana, currentMana + 2))
   end
   setTimeout(regenMana, 30)
 end
