@@ -1,7 +1,7 @@
-fileLoad("det.lua")
+-- fileLoad("det.lua")
 
 conExec("bind F3 \"dofile(\'spawn.lua\')\"")
-conExec("bind F5 \"dofile(\'mana-regen.lua\')\"")
+conExec("bind F12 \"dofile(\'mana-regen.lua\')\"")
 
 -- ================================================================================= --
 function onFirstFrame()

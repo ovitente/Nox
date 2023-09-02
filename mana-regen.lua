@@ -1,5 +1,5 @@
 print('Mana Regen')
-
+print('RUN ONLY ONCE')
 -- Initialize global variable maxmana
 setMe() -- MUST BE TO USE me
 maxmana = unitMaxMana(me)
@@ -8,10 +8,6 @@ local player = me
 local startTime = os.time()
 
 function regenMana()
-  if os.difftime(os.time(), startTime) >= 30 then
-    return
-  end
-
   local currentMana = unitMana(player)
   if currentMana < maxmana then
     unitMana(player, math.min(maxmana, currentMana + 2))
