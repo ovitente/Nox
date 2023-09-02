@@ -1,6 +1,7 @@
 print('Mana Regen')
 
 -- Initialize global variable maxmana
+setMe() -- MUST BE TO USE me
 maxmana = unitMaxMana(me)
 
 local player = me
