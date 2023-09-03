@@ -2,7 +2,7 @@
 
 conExec("bind F3 \"dofile(\'spawn.lua\')\"")
 conExec("bind F12 \"dofile(\'mana-regen.lua\')\"")
-conExec("bind F6 \"dofile(\'teleport.lua\')\"")
+-- conExec("bind F6 \"dofile(\'teleport.lua\')\"")
 
 
 -- ================================================================================= --

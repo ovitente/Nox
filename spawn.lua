@@ -21,9 +21,9 @@ x,y=playerMouse(me)
 -- obj = createObject(objectname,x,y)
 -- itemEnchants(obj, "UserColor17", "", "Regeneration4", "UserColor17")
 
-objectname='MedievalPants'
-obj = createObject(objectname,x,y)
-itemEnchants(obj, "UserColor17", "", "Regeneration4", "UserColor17")
+-- objectname='MedievalPants'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor17", "", "Regeneration4", "UserColor17")
 
 -- Colors:
 -- RED
