@@ -5,3 +5,4 @@
 !.gitignore
 !/*.lua
 !/modifier.bin
+!/modifier.db
