@@ -1,13 +1,66 @@
 setMe()
 x,y=playerMouse(me)
 
+-- WARRIOR 
+--- THIS IS WORKING FOR TWO ENCHS
+-- objectname='OrnateHelm'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor13", "UserColor5", "Regeneration4", "Brilliance1")
+-------
+-- objectname='Breastplate'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor5", "UserColor5", "MagicReflection1", "")
+
+-- objectname='PlateBoots'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor5", "UserColor5", "Speed4", "FireProtect4")
+
+-- objectname='PlateArms'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor5", "UserColor5", "LightningProtect4", "Regeneration4")
+
+-- objectname='GreatSword'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor5", "BlueFireRing4", "Lightning4", "UserColor13")
+
+-- ==========================================================
+
+
+-- objectname='DeathRayWand'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "", "ContinualReplenishment3", "Replenishment1")
+
+-- objectname='InfinitePainWand'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor4", "ContinualReplenishment1", "Replenishment1")
+
+-- objectname='FieldGuide'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "", "UserColor13", "105", "")
+
 -- objectname='ForceWand'
 -- obj = createObject(objectname,x,y)
--- itemEnchants(obj, "", "UserColor13", "ContinualReplenishment4", "Replenishment1")
+-- itemEnchants(obj, "UserColor13", "ContinualReplenishment4", "Replenishment1")
+
+-- objectname='RoundChakram'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "", "UserColor17", "Fire3", "Lightning3")
+
+-- objectname='OblivionOrb'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor13", "ContinualReplenishment4", "Replenishment1")
+
+-- objectname='LesserFireballWand'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor13", "ContinualReplenishment3", "Replenishment1")
 
 -- objectname='FireStormWand'
 -- obj = createObject(objectname,x,y)
 -- itemEnchants(obj, "", "UserColor13", "ContinualReplenishment1", "Replenishment1")
+
+-- objectname='WarHammer'
+-- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "", "UserColor17", "Lightning3", "FireRing3")
 
 -- objectname='StaffWooden'
 -- obj = createObject(objectname,x,y)
@@ -19,11 +72,16 @@ x,y=playerMouse(me)
 
 -- objectname='MedievalShirt'
 -- obj = createObject(objectname,x,y)
--- itemEnchants(obj, "UserColor17", "", "Regeneration4", "UserColor17")
+-- itemEnchants(obj, "UserColor13", "UserColor13", "", "Regeneration4")
 
 -- objectname='MedievalPants'
 -- obj = createObject(objectname,x,y)
+-- itemEnchants(obj, "UserColor13", "UserColor13", "", "Regeneration4")
+
+-- objectname='MedievalCloak'
+-- obj = createObject(objectname,x,y)
 -- itemEnchants(obj, "UserColor17", "", "Regeneration4", "UserColor17")
+
 
 -- Colors:
 -- RED
